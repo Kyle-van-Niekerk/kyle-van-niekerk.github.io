@@ -25,7 +25,8 @@ h1, p{
 }
 
 .row{
-	-webkit-flex-direction: row;
+	display: -webkit-flex;
+	-webkit-justify-content: end;
 }
 
 .container.row{
@@ -46,10 +47,6 @@ h1, p{
 	display:flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.end{
-	-webkit-justify-content: end;
 }
 
 .my-24{
