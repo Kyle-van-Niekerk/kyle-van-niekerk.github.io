@@ -258,7 +258,7 @@ h3{
 	}
 
 	.header{
-		-webkit-justify-content: center;
+		text-align: center;
 	}
 
 	body{
