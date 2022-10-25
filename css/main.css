@@ -24,9 +24,10 @@ h1, p{
 	max-width: 1440px;
 }
 
-.row{
-	display: -webkit-flex;
-	-webkit-justify-content: end;
+.header{
+	padding: 0 5rem;
+	margin:1.5rem 0;
+	text-align: end;
 }
 
 .container.row{
