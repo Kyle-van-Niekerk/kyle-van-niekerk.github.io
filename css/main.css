@@ -110,6 +110,7 @@ a{
 
 a:hover{
 	opacity: 70%;
+	display: block;
 }
 
 .my-64{
