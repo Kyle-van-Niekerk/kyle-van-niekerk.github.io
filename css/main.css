@@ -105,12 +105,10 @@ a{
 	text-decoration: none;
 	color:#000;
 	height: auto;
-	display:block;
 }
 
 a:hover{
 	opacity: 70%;
-	display: block;
 }
 
 .my-64{
@@ -201,6 +199,11 @@ h3{
 	padding:1.5rem 0;
 	background-color: #256D85;
 	color:#FFF;
+}
+
+.header a{
+	display:block;
+	float:right;
 }
 
 @media only screen and (max-width: 1280px) {
