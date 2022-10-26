@@ -144,16 +144,8 @@ a:hover{
 	justify-content: space-between;
 }
 
-.portfolio{
-	display: flex;
-    flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin:2.5rem auto;
-}
-
 .portfolio-image{
-	width:37.5rem;
+	width:100%;
 	height:auto;
 	box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.12);
 }
@@ -168,6 +160,7 @@ h3{
 	display: flex;
 	flex-direction: column;
 	gap: 0.75rem;
+	width:47.5%;
 }
 
 .button-secondary{
@@ -198,33 +191,23 @@ h3{
 	color:#FFF;
 }
 
-@media only screen and (max-width: 1280px) {
-	.portfolio-image{
-	width:33.5rem;
+.section-portfolio{
+	display:flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	gap:2.5rem;
+	padding:0 5rem;
+	margin: 2.5rem auto;
+	max-width:1440px;
 }
-}
-
-@media only screen and (max-width: 1024px) {
-	.portfolio-image{
-		width:25.5rem;
-	}
-  }
 
 @media only screen and (max-width: 768px) {
-	.portfolio{
-		display: flex;
-		flex-direction: column;
-		gap:4rem;
-		margin-top:4rem;
+	
+	.section-portfolio{
+		padding: 0 4rem;
 	}
 	
 	.portfolio-item{
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-	}
-	
-	.portfolio-image{
 		width:100%;
 	}
 	
@@ -244,6 +227,10 @@ h3{
 
 @media only screen and (max-width: 425px) {
 	.container{
+		padding: 0 1rem;
+	}
+
+	.section-portfolio{
 		padding: 0 1rem;
 	}
 
