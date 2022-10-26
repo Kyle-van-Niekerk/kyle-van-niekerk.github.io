@@ -201,7 +201,7 @@ h3{
 	max-width:1440px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
 	
 	.section-portfolio{
 		padding: 0 4rem;
